@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T10:53:31.642Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="GxVD4TdnZ8y-2fZStS2o" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T10:55:55.679Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="4raIRrhNniqtovhbHpmy" version="14.1.9" type="github">
   <diagram id="iYJiFwWRAZU6dN3gZqV-" name="Page-1">
     <mxGraphModel dx="711" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -386,8 +386,8 @@
         <mxCell id="dqD_sn_2MpuuINauSfJk-138" value="status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="880" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dqD_sn_2MpuuINauSfJk-139" value="room_priceinfo&lt;br&gt;room_priceinfo_corp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="800" width="140" height="40" as="geometry" />
+        <mxCell id="dqD_sn_2MpuuINauSfJk-139" value="date,quantity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dqD_sn_2MpuuINauSfJk-140" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -397,8 +397,8 @@
         </mxCell>
         <mxCell id="dqD_sn_2MpuuINauSfJk-141" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="819.75" as="sourcePoint" />
-            <mxPoint x="280" y="819.75" as="targetPoint" />
+            <mxPoint x="240" y="979.75" as="sourcePoint" />
+            <mxPoint x="280" y="979.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dqD_sn_2MpuuINauSfJk-142" value="room&lt;br&gt;vendor_ratecode&lt;br&gt;propertyValue" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -438,6 +438,33 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="850" as="sourcePoint" />
             <mxPoint x="170" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-152" value="date,roomstatus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-153" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="899.75" as="sourcePoint" />
+            <mxPoint x="280" y="899.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-154" value="roomPriceInfo&lt;br&gt;roomPriceInfo_corp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-155" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="819.75" as="sourcePoint" />
+            <mxPoint x="280" y="819.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-156" value="vat,lastXxxTime" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dqD_sn_2MpuuINauSfJk-157" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="739.75" as="sourcePoint" />
+            <mxPoint x="280" y="739.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
